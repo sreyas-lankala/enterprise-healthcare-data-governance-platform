@@ -1,0 +1,16 @@
+# Ignore datasets
+data/raw/*
+data/staging/*
+data/curated/*
+
+# Ignore Synthea generated files
+synthea/output/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
