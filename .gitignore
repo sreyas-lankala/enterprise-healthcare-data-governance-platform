@@ -1,12 +1,17 @@
-# Ignore datasets
+# Ignore generated datasets but keep folder structure
 data/raw/*
 data/staging/*
 data/curated/*
 
-# Ignore Synthea generated files
+# Allow folders to exist
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/curated/.gitkeep
+
+# Ignore Synthea output
 synthea/output/
 
-# Mac system files
+# MacOS files
 .DS_Store
 
 # Logs
@@ -14,3 +19,5 @@ synthea/output/
 
 # Python cache
 __pycache__/
+
+synthea_generator/
