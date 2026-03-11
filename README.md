@@ -21,7 +21,7 @@ Source Systems → Raw → Staging → Curated → Governance → Analytics
 - Microsoft Purview
 - dbt
 - Power BI
-- Python
 - GitHub
+- Python
 
 Dataset size: ~2M+ healthcare records
